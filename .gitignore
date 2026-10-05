@@ -1,0 +1,24 @@
+# Entornos virtuales y secretos
+venv/
+.venv/
+.env
+*.pyc
+__pycache__/
+.DS_Store
+.idea/
+.vscode/
+
+# Datos y modelos
+data/
+*.pkl
+*.h5
+*.joblib
+
+# Reconocimiento facial
+ai/face/models/*.onnx
+backend/fotos_prueba/
+ai/face/models/.cache/
+
+# Frontend
+node_modules/
+dist/
